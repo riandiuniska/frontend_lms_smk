@@ -1,0 +1,56 @@
+.frame {
+    /* height: 600px; */
+    padding-top: 65px;  
+    /* text-align: center; */
+}
+
+.color {
+    background-color: #ccd5ae;
+}
+
+.color2 {
+    background-color: #d4a373;
+}
+
+.garis_vertikal{
+    border-left: 3px black solid;
+    height: 500px;
+    width: 0px;
+    /* margin-right: 6; */
+}
+
+.scroll {
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.kiri {
+    float: left;
+}
+
+.kanan {
+    float: right;
+    margin-top: 15px;
+}
+
+.button-edit {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+table.table-bordered > tbody > tr > td{
+    border:1px solid #343a40;
+}
